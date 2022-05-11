@@ -20,14 +20,4 @@ public class HiddenNuts {
             }
         }
     }
-//    static void findNut(String arr[]) {
-//        Random squirrel = new Random();
-//        arr[squirrel.nextInt(arr.length)] = "Nut";
-//        for (int i = 0; i < arr.length; i++) {
-//            if(arr[i].equals("Nut")) {
-//                System.out.println("Found it! It's in spot#" + i);
-//            }
-//        }
-//    
-//    }
 }
