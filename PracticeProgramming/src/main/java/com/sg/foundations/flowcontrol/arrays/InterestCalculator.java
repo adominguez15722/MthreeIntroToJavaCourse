@@ -11,11 +11,11 @@ import java.util.Scanner;
 public class InterestCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("How much do you want to invest? ");
+        System.out.println("How much do you want to invest? ");
         float principal = scanner.nextFloat();
-        System.out.print("How many years are you investing? ");
+        System.out.println("How many years are you investing? ");
         float years = scanner.nextFloat();
-        System.out.print("What is the annual interest rate % growth?");
+        System.out.println("What is the annual interest rate % growth?");
         float interest = scanner.nextFloat();
         float quarterlyInterest = interest/4;
         System.out.println("Calculating...");
