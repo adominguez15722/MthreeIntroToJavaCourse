@@ -1,6 +1,7 @@
 
 package com.sg.foundations.listsandmaps;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -72,5 +73,21 @@ public class StateCapitals {
             System.out.println(key);
         }
         
+        
+        System.out.println("\n");
+        System.out.println("CAPITALS");
+        System.out.println("=======");
+
+        Collection<String> values = states.values();
+        for(String value: values) {
+            System.out.println(value);
+        }
+        
+        System.out.println("\n");
+        System.out.println("STATE/CAPITAL PAIRS: ");
+        System.out.println("=======");
+        for(String key: states.keySet()) {
+            System.out.println(key + " - " + states.get(key));
+        }
     }
 }
